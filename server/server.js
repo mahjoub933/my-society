@@ -14,7 +14,7 @@ app.listen(port, () => {
   console.log(`Server is running on port ${port}`)
 })
 //const uriLocal ="mongodb://localhost:27017/ma-societeDB?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false"
-const uriCloud = "mongodb+srv://anis:anis1234@clustermern.pztmm.mongodb.net/ma-societedbc?retryWrites=true&w=majority"
+const uriCloud = "mongodb+srv://mahjoub:mahjoub4123@clustermern.pztmm.mongodb.net/ma-societedbc?retryWrites=true&w=majority"
 mongoose.connect(uriCloud, { useNewUrlParser: true , useUnifiedTopology: true }).then(()=> console.log("successfully connexion DB"));
 
 const Schema = mongoose.Schema;
